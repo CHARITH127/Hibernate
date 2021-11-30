@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="705.0" prefWidth="929.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ManageOrderFormController">
+   <children>
+      <Label layoutX="33.0" layoutY="30.0" prefHeight="34.0" prefWidth="191.0" text="Manage Order">
+         <font>
+            <Font name="Book Antiqua Bold" size="26.0" />
+         </font>
+      </Label>
+      <Separator layoutX="29.0" layoutY="65.0" prefHeight="2.0" prefWidth="873.0" />
+      <Label layoutX="33.0" layoutY="89.0" text="Customer Search">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="171.0" layoutY="101.0" prefHeight="3.0" prefWidth="731.0" />
+      <ComboBox fx:id="cmbCustomerId" layoutX="41.0" layoutY="134.0" prefHeight="31.0" prefWidth="245.0" />
+      <JFXButton fx:id="btnSearchCustomer" buttonType="RAISED" layoutX="316.0" layoutY="134.0" onAction="#searchCustomerDetails" text="Search">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXTextField fx:id="txtCustomerTitle" labelFloat="true" layoutX="41.0" layoutY="202.0" promptText="Customer Title" />
+      <JFXTextField fx:id="txtCustomerName" labelFloat="true" layoutX="261.0" layoutY="202.0" prefHeight="31.0" prefWidth="217.0" promptText="Customer Name" />
+      <JFXTextField fx:id="txtCustomerAddress" labelFloat="true" layoutX="537.0" layoutY="202.0" prefHeight="31.0" prefWidth="279.0" promptText="Customer Address" />
+      <JFXTextField fx:id="txtCustomerCity" labelFloat="true" layoutX="41.0" layoutY="267.0" prefHeight="31.0" prefWidth="175.0" promptText="Customer City" />
+      <JFXTextField fx:id="txtCustomerProvince" labelFloat="true" layoutX="261.0" layoutY="267.0" prefHeight="31.0" prefWidth="175.0" promptText="Customer Province" />
+      <JFXTextField fx:id="txtCustomerPostalCode" labelFloat="true" layoutX="466.0" layoutY="267.0" prefHeight="31.0" prefWidth="175.0" promptText="Postal Code" />
+      <Label layoutX="32.0" layoutY="332.0" prefHeight="22.0" prefWidth="65.0" text="Orders">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="99.0" layoutY="344.0" prefHeight="3.0" prefWidth="802.0" />
+      <ComboBox fx:id="cmdOrderId" layoutX="41.0" layoutY="371.0" prefHeight="31.0" prefWidth="245.0" />
+      <JFXButton fx:id="btnSearchorder" buttonType="RAISED" layoutX="322.0" layoutY="369.0" onAction="#SetItemsToTheTable" text="Search">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <TableView fx:id="tblItemTables" layoutX="41.0" layoutY="433.0" prefHeight="200.0" prefWidth="617.0">
+        <columns>
+          <TableColumn fx:id="colItemCode" prefWidth="214.0" text="Item Code" />
+            <TableColumn fx:id="colQty" prefWidth="152.0" text="Qty" />
+            <TableColumn fx:id="colDiscount" prefWidth="250.0" text="Discount" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="btnDelete" buttonType="RAISED" layoutX="700.0" layoutY="602.0" onAction="#DeleteCustomerOrder" prefHeight="31.0" prefWidth="127.0" text="Delete">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>

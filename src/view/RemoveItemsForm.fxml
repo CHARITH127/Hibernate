@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="502.0" prefWidth="432.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RemoveItemsFormController">
+   <children>
+      <Label layoutX="151.0" layoutY="14.0" text="Remove Item">
+         <font>
+            <Font name="Book Antiqua Bold" size="25.0" />
+         </font>
+      </Label>
+      <Separator layoutX="36.0" layoutY="42.0" prefHeight="5.0" prefWidth="382.0" />
+      <TextField fx:id="txtID" layoutX="25.0" layoutY="76.0" prefHeight="31.0" prefWidth="213.0" promptText="Item ID" />
+      <JFXButton fx:id="btnSearch" buttonType="RAISED" layoutX="270.0" layoutY="76.0" onAction="#searchItemDetails" prefHeight="31.0" prefWidth="141.0" text="Search">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label layoutX="36.0" layoutY="138.0" text="Description :">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtDescription" layoutX="144.0" layoutY="138.0" prefHeight="95.0" prefWidth="276.0" />
+      <Label layoutX="36.0" layoutY="252.0" prefHeight="22.0" prefWidth="93.0" text="Pack Size    :">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPackSize" layoutX="145.0" layoutY="248.0" prefHeight="31.0" prefWidth="276.0" />
+      <Label layoutX="36.0" layoutY="298.0" prefHeight="22.0" prefWidth="93.0" text="Unit Price   :">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUnitPrice" layoutX="144.0" layoutY="293.0" prefHeight="31.0" prefWidth="276.0" />
+      <Label layoutX="14.0" layoutY="340.0" prefHeight="22.0" prefWidth="115.0" text="QTYOn Hand   :">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtQtyOnHand" layoutX="145.0" layoutY="336.0" prefHeight="31.0" prefWidth="276.0" />
+      <JFXButton fx:id="btnDelete" buttonType="RAISED" layoutX="278.0" layoutY="430.0" onAction="#DeleteItem" prefHeight="31.0" prefWidth="141.0" text="Delete">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="btnCansel" buttonType="RAISED" layoutX="132.0" layoutY="430.0" onAction="#goTotheManagemnt" prefHeight="31.0" prefWidth="141.0" text="Cansel">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label layoutX="13.0" layoutY="378.0" prefHeight="22.0" prefWidth="115.0" text="Discount          :">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtDiscount" layoutX="144.0" layoutY="374.0" prefHeight="31.0" prefWidth="276.0" />
+   </children>
+</AnchorPane>

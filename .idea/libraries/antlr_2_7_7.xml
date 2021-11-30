@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="antlr-2.7.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/antlr-2.7.7.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/byte-buddy-1.10.7.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/classmate-1.5.1.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/dom4j-2.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/FastInfoset-1.2.15.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/hibernate-commons-annotations-5.1.0.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/hibernate-core-5.4.11.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/istack-commons-runtime-3.0.7.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/jandex-2.1.1.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/javassist-3.24.0-GA.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/javax.activation-api-1.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/javax.persistence-api-2.2.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/jaxb-api-2.3.1.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/jaxb-runtime-2.3.1.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/jboss-logging-3.3.2.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/stax-ex-1.8.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/java Files/hibernate_lib/txw2-2.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

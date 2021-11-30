@@ -1,0 +1,409 @@
+#btnAddNewCustomer{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:aqua;
+}
+
+#btnAddNewCustomer:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnAddNewCustomer:pressed{
+    -fx-background-color:silver;
+}
+/*------------------------------------------------------------------------*/
+#btnAdd{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:aqua;
+}
+
+#btnAdd:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnAdd:pressed{
+    -fx-background-color:silver;
+}
+/*------------------------------------------------------------------------*/
+#btnAdd{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:aqua;
+}
+
+#btnAdd:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnAdd:pressed{
+    -fx-background-color:silver;
+}
+
+/*------------------------------------------------------------------------*/
+
+#btnAddToCart{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:aqua;
+}
+
+#btnAddToCart:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnAddToCart:pressed{
+    -fx-background-color:silver;
+}
+
+/*------------------------------------------------------------------------*/
+
+#btnClear{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:red;
+}
+
+#btnClear:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnClear:pressed{
+    -fx-background-color:red;
+}
+/*------------------------------------------------------------------------*/
+
+#btnConfermOrder{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:aqua;
+}
+
+#btnConfermOrder:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnConfermOrder:pressed{
+    -fx-background-color:silver;
+}
+
+/*------------------------------------------------------------------------*/
+#btnCansel{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:red;
+}
+
+#btnCansel:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnCansel:pressed{
+    -fx-background-color:red;
+}
+
+/*------------------------------------------------------------------------*/
+
+#btnManagmentLodin{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:aqua;
+}
+
+#btnManagmentLodin:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnManagmentLodin:pressed{
+    -fx-background-color:silver;
+}
+
+/*------------------------------------------------------------------------*/
+
+#btnManagmentLodin{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:aqua;
+}
+
+#btnManagmentLodin:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnManagmentLodin:pressed{
+    -fx-background-color:silver;
+}
+
+/*------------------------------------------------------------------------*/
+
+#btnDelete{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:red;
+}
+
+#btnDelete:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnDelete:pressed{
+    -fx-background-color:red;
+}
+
+/*------------------------------------------------------------------------*/
+
+#btnSearch{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:aqua;
+}
+
+#btnSearch:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnSearch:pressed{
+    -fx-background-color:silver;
+}
+
+/*------------------------------------------------------------------------*/
+
+#btnSearchCustomer{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:aqua;
+}
+
+#btnSearchCustomer:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnSearchCustomer:pressed{
+    -fx-background-color:silver;
+}
+
+/*------------------------------------------------------------------------*/
+
+#btnSearchorder{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:aqua;
+}
+
+#btnSearchorder:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnSearchorder:pressed{
+    -fx-background-color:silver;
+}
+/*------------------------------------------------------------------------*/
+
+#btnAddItemToTheDataBase{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:aqua;
+}
+
+#btnAddItemToTheDataBase:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnAddItemToTheDataBase:pressed{
+    -fx-background-color:silver;
+}
+/*------------------------------------------------------------------------*/
+
+#btnUpdate{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:aqua;
+}
+
+#btnUpdate:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnUpdate:pressed{
+    -fx-background-color:silver;
+}
+
+/*------------------------------------------------------------------------*/
+
+
+#btnAnualIncome{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:#f5f5a9;
+}
+
+#btnAnualIncome:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnAnualIncome:pressed{
+    -fx-background-color:silver;
+}
+
+/*------------------------------------------------------------------------*/
+
+#btnMostMovableItem{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:#f5f5a9;
+}
+
+#btnMostMovableItem:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnMostMovableItem:pressed{
+    -fx-background-color:silver;
+}
+
+/*------------------------------------------------------------------------*/
+
+#btnLeastMoveableItem{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:#f5f5a9;
+}
+
+#btnLeastMoveableItem:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnLeastMoveableItem:pressed{
+    -fx-background-color:silver;
+}
+
+/*------------------------------------------------------------------------*/
+#btnCustomerIncome{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:#f5f5a9;
+}
+
+#btnCustomerIncome:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnCustomerIncome:pressed{
+    -fx-background-color:silver;
+}
+
+/*------------------------------------------------------------------------*/
+
+#btnMonthlyincome{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color:#f5f5a9;
+}
+
+#btnMonthlyincome:hover{
+    -fx-background-color:white;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(one-pass-box,silver , 10, 1.0, 10, 10);
+    -fx-text-fill:black;
+    -fx-border-color: blue;
+}
+
+#btnMonthlyincome:pressed{
+    -fx-background-color:silver;
+}
